@@ -30,19 +30,19 @@ jobs:
     - uses: actions/upload-artifact@main
       with:
          name: webpack artifacts
-         path: index.json
+         path: index.js
   test:
     runs-on: ubuntu-latest
     strategy:
      matrix:
-      os: [ubuntu-latest, windows-2016]
+      os: [ubuntu-latest]
       node-version: [14.x]
     steps:
     - uses: actions/checkout@v2
     - uses: actions/download-artifact@main
       with: 
         name: webpack artifacts
-        path: index.json
+        path: index.js
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
