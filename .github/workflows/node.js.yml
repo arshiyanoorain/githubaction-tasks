@@ -29,8 +29,13 @@ jobs:
     - run: npm run build --if-present
     - uses: actions/upload-artifact@main
       with:
-         name: webpack artifacts
-         path: index.js
+         name: artifacts
+         path: |
+           lib/
+           test/
+           views/
+           package.json
+           index.js
   test:
     runs-on: ubuntu-latest
     strategy:
@@ -41,8 +46,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: actions/download-artifact@main
       with: 
-        name: webpack artifacts
-        path: index.js
+        name: artifacts
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
