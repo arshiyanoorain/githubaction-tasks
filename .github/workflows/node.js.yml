@@ -36,6 +36,9 @@ jobs:
            views/
            package.json
            index.js
+           out.gif
+           out2.gif
+           package-lock.json
   test:
     runs-on: ubuntu-latest
     strategy:
