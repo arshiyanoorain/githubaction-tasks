@@ -36,8 +36,7 @@ jobs:
            views/
            package.json
            index.json
-    #- run: npm test
-	
+ 
   test:
     runs-on: ubuntu-latest
     strategy:
