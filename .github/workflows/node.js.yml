@@ -31,5 +31,9 @@ jobs:
       with:
          name: webpack artifacts
          path: |
-           \home\runner\work\githubaction-tasks\githubaction-tasks\*
+           lib/
+           test/
+           views/
+           package.json
+           index.json
     #- run: npm test
