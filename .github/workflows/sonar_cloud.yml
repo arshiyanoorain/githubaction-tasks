@@ -3,7 +3,7 @@ on:
   # a pull request. 
   push:
     branches:
-      - main
+      - staging
 
 name: sonar Workflow
 jobs:
