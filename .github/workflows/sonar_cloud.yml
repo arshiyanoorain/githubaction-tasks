@@ -1,6 +1,6 @@
 on:
   # Trigger analysis when pushing in master or pull requests, and when creating
-  # a pull reques
+  # a pull reque
   push:
     branches:
       - staging
