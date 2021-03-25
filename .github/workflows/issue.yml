@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: alex-page/github-project-automation-plus@v0.3.0
         with:
-          project: Backlog
-          column: Triage
+          project: challenge4
+          column: Done
           repo-token: ${{ secrets.GH_TOKEN }}
