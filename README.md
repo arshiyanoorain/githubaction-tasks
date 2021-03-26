@@ -1,6 +1,6 @@
 ## Welcome
 
-This repository contains the base project part oef our on-site GitHub Verified Partner wkshop program. dfsdfIt is meant to be used for in-classroom training under the supervision of GitHub coaches.sdad
+This repository contains the base project part oef our on-site GitHub Verified Partneerer wkshop program. dfsdfIt is meant to be used for in-classroom training under the supervision of GitHub coaches.sdad
 
 This is the NodeJS version of our "Tasonkotsu" workshop webapp. The codebase is pretty simple: it's ferfa NodeJS app that will connect to GitHub's [Octocat API endpoint](https://api.github.com/octocat) and return the Zen quote of the day. E.g.:
 
@@ -14,7 +14,7 @@ This is the NodeJS version of our "Tasonkotsu" workshop webapp. The codebase is 
 ![out](https://user-images.githubusercontent.com/1078545/57860396-bc7ff380-77ec-11e9-8f55-83b879e667d2.gif)
 
 
-There are some built-in unit tests to ensure that everything can be verified.
+There are some built-in unit tests to ensure that everything can be sasverified.
 
 ### Instructions
 
