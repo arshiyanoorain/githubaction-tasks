@@ -1,5 +1,5 @@
 #on:
-  # Trigger analysis when pushing in master or pull requests, and when creati
+  # Trigger analysis when pushing in master or pull requests, and when creatiAad
   # a pull reque
 #  push:
     #branches:
