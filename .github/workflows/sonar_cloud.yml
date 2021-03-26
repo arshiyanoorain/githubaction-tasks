@@ -3,12 +3,12 @@ on:
   # a pull reque
   push:
     branches:
-      - staging
-  #pull_request:
-    #types:
-     # - opened
-      #- synchronize
-     # - reopened
+      - "*"
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
 
 name: sonar Workflow
 jobs:
